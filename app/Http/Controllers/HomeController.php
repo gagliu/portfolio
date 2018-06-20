@@ -89,7 +89,7 @@ class HomeController extends Controller
     {
       //return $request->all();
       Mail::send('emails.question', ['request' => $request  ], function ($m) use ($request) {
-          $m->from('onboard@happychild.es', 'Portfolio - Developer');
+          $m->from('contact@juan-giraldo.com', 'Portfolio - Developer');
           $m->to('juangiraldo222@gmail.com', 'Juan Giraldo')->subject($request->messaje);
           //$m->to($user->email, $user->name)->subject('Bienvenido a HappyChild');
       });
