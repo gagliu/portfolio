@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('portfolio');
 });
+
+Route::post('portfolioQuestion', 'HomeController@portfolioQuestion');
+//Route::post('sendQuestion', 'HomeController@sendQuestion');
