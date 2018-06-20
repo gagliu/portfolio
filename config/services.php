@@ -25,8 +25,12 @@ return [
         'region' => 'us-east-1',
     ],
 
-    'sparkpost' => [
+    /*'sparkpost' => [
         'secret' => env('SPARKPOST_SECRET'),
+    ],*/
+
+    'sparkpost' => [
+        'secret' => 'd03f1bba1d289879ed89672fe816651f5c2ac570',
     ],
 
     'stripe' => [

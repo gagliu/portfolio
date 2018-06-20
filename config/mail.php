@@ -16,7 +16,7 @@ return [
     |
     */
 
-    'driver' => env('MAIL_DRIVER', 'smtp'),
+    'driver' => 'sparkpost', //env('MAIL_DRIVER', 'smtp'),
 
     /*
     |--------------------------------------------------------------------------
@@ -29,7 +29,7 @@ return [
     |
     */
 
-    'host' => env('MAIL_HOST', 'smtp.mailgun.org'),
+    'host' => 'smtp.sparkpostmail.com',//env('MAIL_HOST', 'smtp.mailgun.org'),
 
     /*
     |--------------------------------------------------------------------------
@@ -55,7 +55,8 @@ return [
     |
     */
 
-    'from' => ['address' => 'juangiraldo222@gmail.com', 'name' => 'Test'],
+    //'from' => ['address' => 'juangiraldo222@gmail.com', 'name' => 'Test'],
+      'from' => ['address' => null, 'name' => null],
 
     /*
     |--------------------------------------------------------------------------
@@ -68,7 +69,8 @@ return [
     |
     */
 
-    'encryption' => env('MAIL_ENCRYPTION', 'tls'),
+    //'encryption' => env('MAIL_ENCRYPTION', 'tls'),
+    'encryption' => env('MAIL_ENCRYPTION', 'STARTTLS'), //STARTTLS //tls
 
     /*
     |--------------------------------------------------------------------------
@@ -81,7 +83,8 @@ return [
     |
     */
 
-    'username' => env('MAIL_USERNAME'),
+    //'username' => env('MAIL_USERNAME'),
+    'username' => 'SMTP_Injection',
 
     /*
     |--------------------------------------------------------------------------
@@ -94,7 +97,7 @@ return [
     |
     */
 
-    'password' => env('MAIL_PASSWORD'),
+    'password' => 'd03f1bba1d289879ed89672fe816651f5c2ac570',//env('MAIL_PASSWORD'),
 
     /*
     |--------------------------------------------------------------------------
