@@ -69,7 +69,7 @@
                                     <div class="col-sm-4 col-md-4 col-lg-4">
                                         <div class="photo">
                                             <!-- <a href=""> -->
-                                            <img src="//lmpixels.com/wp/aveo/wp-content/uploads/2017/09/photo.png" alt="image">
+                                            <img src="/images/portfolio/photo.png" alt="image">
                                             <!-- </a> -->
                                         </div>
                                     </div>
