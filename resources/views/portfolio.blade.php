@@ -364,7 +364,7 @@
                                                         <div class="service-block">
                                                             <div class="service-info">
                                                                 <div class="service-image">
-                                                                    <img src="http://lmpixels.com/wp/aveo/wp-content/uploads/2017/09/web_design_icon.png" alt="Web Design">
+                                                                    <img src="/images/portfolio/web_design_icon.png" alt="Web Design">
                                                                 </div>
                                                                 <h4>Web Development</h4>
                                                                 <p>Full-stack development using Laravel framework</p>
@@ -377,7 +377,7 @@
                                                         <div class="service-block">
                                                             <div class="service-info">
                                                                 <div class="service-image">
-                                                                    <img src="http://lmpixels.com/wp/aveo/wp-content/uploads/2017/09/advetising_icon.png" alt="Management">
+                                                                    <img src="/images/portfolio/advetising_icon.png" alt="Management">
                                                                 </div>
                                                                 <h4>Advetising</h4>
                                                                 <p>Social media and landing sites for business.</p>
